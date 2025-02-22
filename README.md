@@ -14,11 +14,11 @@ There are a few minor drawbacks (which I don't consider significant):
 
 1、虚拟机最好只设置一个黑苹果自动开机，黑苹果关机的时候pve物理机就自动关机了。如果你运行了开机了多个虚拟机，除非这些虚拟机都关机了，物理机才能立马关机。因为原理是我是检测kvm进程都没了才关机pve。比如你pkill kvm杀掉所有kvm进程也会关机。
 
-1.Single VM Auto-Boot Limitation.It's recommended to configure only one Hackintosh VM for automatic startup. When this Hackintosh shuts down, the Proxmox VE (PVE) host will automatically power off. However, if multiple VMs are running, the PVE host will only shut down immediately after all VMs are powered off. This occurs because the underlying mechanism checks if all KVM processes have terminated before shutting down the PVE host. For example, manually terminating all KVM processes (e.g., using pkill kvm) would also trigger a host shutdown.
+Single VM Auto-Boot Limitation.It's recommended to configure only one Hackintosh VM for automatic startup. When this Hackintosh shuts down, the Proxmox VE (PVE) host will automatically power off. However, if multiple VMs are running, the PVE host will only shut down immediately after all VMs are powered off. This occurs because the underlying mechanism checks if all KVM processes have terminated before shutting down the PVE host. For example, manually terminating all KVM processes (e.g., using pkill kvm) would also trigger a host shutdown.
 
 2、黑苹果不能设置睡眠（一是睡眠了唤醒有问题，二是睡眠了你得另外开个机器pve后台恢复黑苹果运行），干脆就丢掉睡眠吧。重启黑苹果不会导致pve物理机自动关机。 
 
-2.Hackintosh Sleep Mode Incompatibility.Sleep mode should be disabled for Hackintosh VMs due to:Wake-from-sleep instability issues.The impractical requirement of needing another device to manually resume the VM from sleep via the PVE backend.Notably, restarting the Hackintosh VM won't trigger an automatic shutdown of the PVE host.
+Hackintosh Sleep Mode Incompatibility.Sleep mode should be disabled for Hackintosh VMs due to:Wake-from-sleep instability issues.The impractical requirement of needing another device to manually resume the VM from sleep via the PVE backend.Notably, restarting the Hackintosh VM won't trigger an automatic shutdown of the PVE host.
 
 作者：李晓流 
 
