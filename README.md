@@ -25,3 +25,8 @@ Hackintosh Sleep Mode Incompatibility.Sleep mode should be disabled for Hackinto
 Author:lixiaoliu
 
 https://www.bilibili.com/read/cv32880920/?opus_fallback=1 出处from：bilibili
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lixiaoliu666/pve-mac-hook&type=Date)](https://www.star-history.com/#lixiaoliu666/pve-mac-hook&Date)
+
