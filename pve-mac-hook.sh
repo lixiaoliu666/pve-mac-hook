@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#李晓流编写
 #删除文件
 rm /root/macvmsc.sh
 #大量文本不转义写入文件
