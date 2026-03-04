@@ -24,5 +24,5 @@ Hackintosh Sleep Mode Incompatibility.Sleep mode should be disabled for Hackinto
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lixiaoliu666/pve-mac-hook&type=Date)](https://www.star-history.com/#lixiaoliu666/pve-mac-hook&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AICodo/pve-mac-hook&type=Date)](https://www.star-history.com/#AICodo/pve-mac-hook&Date)
 
