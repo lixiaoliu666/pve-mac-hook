@@ -20,11 +20,7 @@ Single VM Auto-Boot Limitation.It's recommended to configure only one Hackintosh
 
 Hackintosh Sleep Mode Incompatibility.Sleep mode should be disabled for Hackintosh VMs due to:Wake-from-sleep instability issues.The impractical requirement of needing another device to manually resume the VM from sleep via the PVE backend.Notably, restarting the Hackintosh VM won't trigger an automatic shutdown of the PVE host.
 
-作者：李晓流 
 
-Author:lixiaoliu
-
-https://www.bilibili.com/read/cv32880920/?opus_fallback=1 出处from：bilibili
 
 ## Star History
 
